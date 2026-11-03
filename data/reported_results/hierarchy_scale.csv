@@ -1,0 +1,7 @@
+hierarchy,scale_group,GT_count,AP50,AP50_95,checkpoint,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+P3/P4/P5,tiny,825,0.3426,0.0853,H345 (B-post),reported_manuscript_summary,hierarchy_group_specific_scale_AP,main(20261103-062034).tex,tab:6,814,820
+P3/P4/P5,small,967,0.5386,0.1988,H345 (B-post),reported_manuscript_summary,hierarchy_group_specific_scale_AP,main(20261103-062034).tex,tab:6,820,825
+P3/P4/P5,medium-to-large,509,0.5724,0.3041,H345 (B-post),reported_manuscript_summary,hierarchy_group_specific_scale_AP,main(20261103-062034).tex,tab:6,825,830
+P2/P3/P4,tiny,825,0.3306,0.0893,H234,reported_manuscript_summary,hierarchy_group_specific_scale_AP,main(20261103-062034).tex,tab:6,830,837
+P2/P3/P4,small,967,0.5429,0.2025,H234,reported_manuscript_summary,hierarchy_group_specific_scale_AP,main(20261103-062034).tex,tab:6,837,842
+P2/P3/P4,medium-to-large,509,0.5615,0.2867,H234,reported_manuscript_summary,hierarchy_group_specific_scale_AP,main(20261103-062034).tex,tab:6,842,847

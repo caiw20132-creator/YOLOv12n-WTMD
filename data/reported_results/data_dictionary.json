@@ -1,0 +1,859 @@
+{
+  "scope": "Manuscript-reported aggregate results only. Not original inference, individual boxes/images, source logs or bootstrap draws.",
+  "source_files": [
+    {
+      "file": "main(20261103-062034).tex",
+      "sha256": "4f2a763f8c30b395fc3d8835f63c2e71d36ba57284d6d7ccf70c53fdf7a74291"
+    },
+    {
+      "file": "S1_Appendix.tex",
+      "sha256": "83df74711b8467a4b6975867e7b068f2eccc8772f786b7ff05af7a43b805a618"
+    }
+  ],
+  "tables_covered": 33,
+  "source_tables_main": 9,
+  "source_tables_appendix": 24,
+  "csv_files": [
+    {
+      "file": "dataset_composition.csv",
+      "rows": 4,
+      "columns": [
+        "split",
+        "images",
+        "annotations",
+        "background_images",
+        "role",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:3",
+      "source_file": "main(20261103-062034).tex",
+      "units": {
+        "images": "count",
+        "annotations": "count"
+      }
+    },
+    {
+      "file": "fusion_nodes.csv",
+      "rows": 4,
+      "columns": [
+        "feature",
+        "role",
+        "stride",
+        "spatial_size",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:2",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "main_native_performance.csv",
+      "rows": 2,
+      "columns": [
+        "model",
+        "precision",
+        "recall",
+        "AP50",
+        "AP50_95",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:4",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "computational_summary.csv",
+      "rows": 2,
+      "columns": [
+        "model",
+        "unfused_parameters_M",
+        "recorded_operation_estimate_G",
+        "validator_inference_ms_per_image",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:9",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "hierarchy_overall.csv",
+      "rows": 2,
+      "columns": [
+        "configuration",
+        "hierarchy",
+        "output_count",
+        "precision",
+        "recall",
+        "AP50",
+        "AP50_95",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:6",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "hierarchy_scale.csv",
+      "rows": 6,
+      "columns": [
+        "hierarchy",
+        "scale_group",
+        "GT_count",
+        "AP50",
+        "AP50_95",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:6",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "pooling_continuation.csv",
+      "rows": 2,
+      "columns": [
+        "operator",
+        "precision",
+        "recall",
+        "AP50",
+        "AP50_95",
+        "unfused_parameters_M",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:7",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "pooling_continuation_difference.csv",
+      "rows": 1,
+      "columns": [
+        "contrast",
+        "precision_difference",
+        "recall_difference",
+        "AP50_difference",
+        "AP50_95_difference",
+        "unfused_parameter_difference_M",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:7",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "external_native_performance.csv",
+      "rows": 4,
+      "columns": [
+        "cohort",
+        "images",
+        "annotations",
+        "model",
+        "precision",
+        "recall",
+        "AP50",
+        "AP50_95",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:10",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "cqr_test.csv",
+      "rows": 6,
+      "columns": [
+        "cohort",
+        "images",
+        "model_or_checkpoint",
+        "scoring",
+        "retained_boxes",
+        "AP50",
+        "AP50_95",
+        "CQR_minus_CG_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:cqr_results",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "interventions_IoU050.csv",
+      "rows": 6,
+      "columns": [
+        "removal_type",
+        "level",
+        "reentered",
+        "unmatched",
+        "replacement",
+        "new_match",
+        "lost_GT",
+        "delta_matched",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:gt_matching_results",
+      "source_file": "main(20261103-062034).tex",
+      "units": {}
+    },
+    {
+      "file": "environment_settings.csv",
+      "rows": 9,
+      "columns": [
+        "item",
+        "recorded_setting",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S1",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Item",
+          "Recorded setting"
+        ]
+      }
+    },
+    {
+      "file": "training_settings.csv",
+      "rows": 26,
+      "columns": [
+        "setting",
+        "B_main",
+        "W_StageB",
+        "pooling_continuations",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S10",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Setting",
+          "B-main",
+          "W-StageB / (primary WTMD)",
+          "Pooling continuations"
+        ]
+      }
+    },
+    {
+      "file": "compute_provenance.csv",
+      "rows": 5,
+      "columns": [
+        "quantity",
+        "record",
+        "scope",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S11",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Quantity",
+          "Record",
+          "Scope"
+        ]
+      }
+    },
+    {
+      "file": "matching_conventions.csv",
+      "rows": 5,
+      "columns": [
+        "analysis",
+        "matching_numerical_convention",
+        "reported_quantity",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S14",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Analysis",
+          "Matching and numerical convention",
+          "Reported quantity"
+        ]
+      }
+    },
+    {
+      "file": "quality_estimator_designs.csv",
+      "rows": 4,
+      "columns": [
+        "method",
+        "inputs",
+        "target",
+        "estimator_fitting",
+        "boxes",
+        "evaluation",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:quality_precedents",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Method",
+          "Inputs",
+          "Target",
+          "Estimator / fitting",
+          "Boxes",
+          "Evaluation"
+        ]
+      }
+    },
+    {
+      "file": "analysis_navigation.csv",
+      "rows": 8,
+      "columns": [
+        "analysis",
+        "checkpoints",
+        "evaluation_data",
+        "matching_metric",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:analysis_navigation",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Analysis",
+          "Checkpoints",
+          "Evaluation data",
+          "Matching / metric"
+        ]
+      }
+    },
+    {
+      "file": "test_partition_roles.csv",
+      "rows": 4,
+      "columns": [
+        "experimental_stage",
+        "WTMD_test_image_role",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:test_partition_roles",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Experimental stage",
+          "Role of WTMD test images"
+        ]
+      }
+    },
+    {
+      "file": "qualitative_rendering.csv",
+      "rows": 5,
+      "columns": [
+        "operation",
+        "recorded_settings_or_source_behavior",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:qualitative_rendering",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "column_headers_as_reported": [
+          "Operation",
+          "Recorded setting or source behavior"
+        ]
+      }
+    },
+    {
+      "file": "tensor_forward_timing.csv",
+      "rows": 2,
+      "columns": [
+        "model",
+        "checkpoint",
+        "mean_ms",
+        "SD_ms",
+        "P95_ms",
+        "FPS",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S2",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "time": "ms",
+        "SD": "within_session_pass_to_pass"
+      }
+    },
+    {
+      "file": "evaluation_cohorts.csv",
+      "rows": 6,
+      "columns": [
+        "cohort",
+        "images",
+        "annotations",
+        "background_images",
+        "role",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S3",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "appendix_external_native_performance.csv",
+      "rows": 4,
+      "columns": [
+        "partition",
+        "model",
+        "precision",
+        "recall",
+        "AP50",
+        "AP50_95",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S3",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "degradation_sensitivity.csv",
+      "rows": 14,
+      "columns": [
+        "model",
+        "degradation",
+        "AP50",
+        "AP50_95",
+        "recall",
+        "delta_AP50",
+        "retention_AP50_percent",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S4",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "AP": "0_to_1",
+        "retention": "percent"
+      }
+    },
+    {
+      "file": "resolution_sensitivity.csv",
+      "rows": 8,
+      "columns": [
+        "model",
+        "nominal_resolution",
+        "AP50",
+        "AP50_95",
+        "recall",
+        "delta_AP50",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S5",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "development_geometry.csv",
+      "rows": 4,
+      "columns": [
+        "level",
+        "stride",
+        "short_side_below_one_stride_percent",
+        "area_below_four_squared_strides_percent",
+        "either_condition_percent",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S6",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "proportions": "percent",
+        "annotation_denominator": 21834
+      }
+    },
+    {
+      "file": "image_similarity.csv",
+      "rows": 3,
+      "columns": [
+        "split_pair",
+        "compared_images",
+        "exact_MD5_duplicate_pairs",
+        "phash_zero_pairs",
+        "phash_distance_le5_pairs",
+        "minimum_phash_distance",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S7",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "architecture_layers.csv",
+      "rows": 20,
+      "columns": [
+        "layer",
+        "from",
+        "repeats",
+        "module",
+        "configuration_arguments",
+        "stride",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S8",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "checkpoint_identities.csv",
+      "rows": 8,
+      "columns": [
+        "checkpoint",
+        "experimental_role",
+        "sha256",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S9",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "cqr_internal_check.csv",
+      "rows": 6,
+      "columns": [
+        "cohort",
+        "images",
+        "model_or_checkpoint",
+        "scoring",
+        "retained_boxes",
+        "AP50",
+        "AP50_95",
+        "CQR_minus_CG_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S12",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "cqr_external.csv",
+      "rows": 6,
+      "columns": [
+        "cohort",
+        "images",
+        "model_or_checkpoint",
+        "scoring",
+        "retained_boxes",
+        "AP50",
+        "AP50_95",
+        "CQR_minus_CG_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "checkpoint",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:S13",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "interventions_all_thresholds.csv",
+      "rows": 60,
+      "columns": [
+        "removal_type",
+        "level",
+        "matching_IoU",
+        "reentered",
+        "unmatched",
+        "replacement",
+        "new_match",
+        "gained_GT",
+        "lost_GT",
+        "delta_matched",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:all_intervention_thresholds",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "complete_detector_scale.csv",
+      "rows": 6,
+      "columns": [
+        "checkpoint",
+        "scale_group",
+        "GT_count",
+        "AP50",
+        "AP50_95",
+        "WTMD_minus_baseline_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:complete_scale_reanalysis",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "exact_image_intersections.csv",
+      "rows": 3,
+      "columns": [
+        "external_cohort",
+        "images",
+        "WTMD_train_intersection",
+        "WTMD_validation_intersection",
+        "WTMD_test_intersection",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:current_exact_intersections",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "cqr_external_exclusions.csv",
+      "rows": 4,
+      "columns": [
+        "checkpoint",
+        "exclusion_rule",
+        "images",
+        "annotations",
+        "retained_boxes",
+        "native_AP50_95",
+        "CG_AP50_95",
+        "CQR_AP50_95",
+        "CQR_minus_CG_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:external_exclusion",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    },
+    {
+      "file": "cqr_filename_family_exclusion.csv",
+      "rows": 2,
+      "columns": [
+        "checkpoint",
+        "retained_boxes",
+        "native_AP50_95",
+        "CG_AP50_95",
+        "CQR_AP50_95",
+        "CQR_minus_CG_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:filename_sensitivity",
+      "source_file": "S1_Appendix.tex",
+      "units": {
+        "images": 305,
+        "annotations": 1135
+      }
+    },
+    {
+      "file": "cqr_phash_exclusions.csv",
+      "rows": 4,
+      "columns": [
+        "checkpoint",
+        "distance_threshold",
+        "images",
+        "annotations",
+        "retained_boxes",
+        "native_AP50_95",
+        "CG_AP50_95",
+        "CQR_AP50_95",
+        "CQR_minus_CG_AP50_95_pp",
+        "CI95_lower_pp",
+        "CI95_upper_pp",
+        "record_type",
+        "evaluation_endpoint",
+        "source_file",
+        "source_table",
+        "source_line_start",
+        "source_line_end"
+      ],
+      "source_table": "tab:phash_sensitivity",
+      "source_file": "S1_Appendix.tex",
+      "units": {}
+    }
+  ],
+  "validation": {
+    "all_60_intervention_rows_pass": true,
+    "external_model_identity_preserved": true,
+    "main_hierarchy_AP95_identity_preserved": true,
+    "AP_probability_bounds_pass": true,
+    "source_prediction_reproduction_performed": false,
+    "network_inference_performed": false
+  }
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "identifier": "B-main",
+    "sha256": "9402fc69e49b43cc8f67793bf0801d75b4978cb458484d0e2630f75e65f842d0",
+    "required": true,
+    "present": true,
+    "paths": [
+      "recovered/project/results/SSCI_Stage1/WTB_BASELINE_PATH_BACKUP_20261016_131557_719_51b1e114497745ea941159990500a38b/original_target_best.pt",
+      "recovered/project/results/SSCI_Stage1/WTB_BASELINE_PATH_BACKUP_20261016_132630_832_e9acc75302fb4a458cdc6678512029d5/original_target_best.pt"
+    ]
+  },
+  {
+    "identifier": "W-StageB",
+    "sha256": "729365b19c0669ed86ffd9f5f39e18dc1332ae1a1720dc35a462868653359c84",
+    "required": true,
+    "present": true,
+    "paths": [
+      "recovered/project/runs_wtb/FINAL_allin_960_stageB/weights/best.pt"
+    ]
+  },
+  {
+    "identifier": "B-post",
+    "sha256": "8777e8cbebcfd2a82becc6c4216fa2ef3f30abf0966f709c34908c92eadd7baf",
+    "required": true,
+    "present": true,
+    "paths": [
+      "recovered/project/runs_m4_schemeA_official_8x3/train/Baseline_YOLOv12n_seed0/weights/best.pt",
+      "recovered/project/runs_train/official_y12_vs_wtmd/YOLOv12n_official/weights/best.pt"
+    ]
+  },
+  {
+    "identifier": "H234",
+    "sha256": "85bf53506a915ca41a2af2d85d2086a1350f9de52af5dc7f58c96a3e58e59bc4",
+    "required": true,
+    "present": true,
+    "paths": [
+      "recovered/project/runs_controlled_hierarchy_minimal/train/H11_Reallocate_P234_seed0/weights/best.pt"
+    ]
+  },
+  {
+    "identifier": "W-soft-cont",
+    "sha256": "1d973320bd74c14fffeb6043d55c969caaa2e20351375d225c5653761c9cb514",
+    "required": true,
+    "present": true,
+    "paths": [
+      "recovered/project/paper_reproducibility/stageb_initialized_softpool_maxpool_control_fixed/20260629_102610/training_runs/StageB_Initialized_SoftPool_Continuation/weights/best.pt"
+    ]
+  },
+  {
+    "identifier": "W-max-cont",
+    "sha256": "183f7dbc55ef5c855d23cd04796ee114bd89211e9e181fab0df51fe0282687bd",
+    "required": true,
+    "present": true,
+    "paths": [
+      "recovered/project/paper_reproducibility/stageb_initialized_softpool_maxpool_control_fixed/20260629_102610/training_runs/StageB_Initialized_MaxPool_Continuation/weights/best.pt"
+    ]
+  },
+  {
+    "identifier": "B-profile",
+    "sha256": "f481bad2255ab79d60766c0e0de5364036d2debfeedf6816df3ec9a4feb9d5cf",
+    "required": false,
+    "present": true,
+    "paths": [
+      "recovered/project/paper_reproducibility/chapter4_1_clean_rerun/20260627_131153/training_runs/Original_YOLOv12n_P3P4P5/weights/best.pt"
+    ]
+  },
+  {
+    "identifier": "W-profile",
+    "sha256": "6a7c3c6d4b195f7745ecdc54cc50f12a23a4404b91c059f358c7125eb180aea6",
+    "required": false,
+    "present": true,
+    "paths": [
+      "recovered/project/paper_reproducibility/chapter4_1_clean_rerun/20260627_131153/training_runs/Reconstructed_P2P3P4_SoftPool/weights/best.pt"
+    ]
+  }
+]

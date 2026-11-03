@@ -1,0 +1,3 @@
+model,checkpoint,mean_ms,SD_ms,P95_ms,FPS,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+YOLOv12n,B-main,27.320,11.021,40.964,36.603,reported_manuscript_summary,FP32_tensor_forward_timing_batch1,S1_Appendix.tex,tab:S2,116,118
+YOLOv12n-WTMD,W-StageB,21.145,8.410,30.805,47.294,reported_manuscript_summary,FP32_tensor_forward_timing_batch1,S1_Appendix.tex,tab:S2,118,119

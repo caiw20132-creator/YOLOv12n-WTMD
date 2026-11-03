@@ -1,0 +1,9 @@
+model,nominal_resolution,AP50,AP50_95,recall,delta_AP50,checkpoint,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+YOLOv12n,640x640,0.612,0.253,0.600,-0.034,B-post,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,274,276
+YOLOv12n,800x800,0.644,0.271,0.636,-0.001,B-post,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,276,277
+YOLOv12n,960x960,0.646,0.270,0.628,0.000,B-post,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,277,278
+YOLOv12n,1280x1280,0.626,0.259,0.627,-0.020,B-post,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,278,279
+YOLOv12n-WTMD,640x640,0.652,0.278,0.626,-0.006,W-StageB,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,279,281
+YOLOv12n-WTMD,800x800,0.672,0.289,0.642,0.013,W-StageB,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,281,282
+YOLOv12n-WTMD,960x960,0.658,0.278,0.634,0.000,W-StageB,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,282,283
+YOLOv12n-WTMD,1280x1280,0.579,0.229,0.582,-0.079,W-StageB,reported_manuscript_summary,batch6_frozen_checkpoint_resolution_AP,S1_Appendix.tex,tab:S5,283,284

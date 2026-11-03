@@ -1,0 +1,7 @@
+cohort,images,annotations,background_images,role,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+WTMD training,4021,17043,210,Current split; baseline and pooling-continuation fitting,reported_manuscript_summary,evaluation_cohort_composition,S1_Appendix.tex,tab:S3,137,139
+WTMD validation,1151,4791,50,Current-split checkpoint selection and CQR fitting,reported_manuscript_summary,evaluation_cohort_composition,S1_Appendix.tex,tab:S3,139,140
+WTMD test,572,2301,34,Fixed evaluation,reported_manuscript_summary,evaluation_cohort_composition,S1_Appendix.tex,tab:S3,140,141
+External 1 test,451,394,--,Native complete-detector evaluation,reported_manuscript_summary,evaluation_cohort_composition,S1_Appendix.tex,tab:S3,141,142
+External 1 validation,901,824,632,Historical fixed-matching rescoring cohort,reported_manuscript_summary,evaluation_cohort_composition,S1_Appendix.tex,tab:S3,142,143
+External 2 validation,519,1223,--,Native complete-detector evaluation,reported_manuscript_summary,evaluation_cohort_composition,S1_Appendix.tex,tab:S3,143,144

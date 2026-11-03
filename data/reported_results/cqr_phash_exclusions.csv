@@ -1,0 +1,5 @@
+checkpoint,distance_threshold,images,annotations,retained_boxes,native_AP50_95,CG_AP50_95,CQR_AP50_95,CQR_minus_CG_AP50_95_pp,CI95_lower_pp,CI95_upper_pp,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+B-post,0,558,2249,14503,0.26918,0.27001,0.27437,+0.436,0.229,0.618,reported_manuscript_summary,fixed_matching_ranking_AP_after_recorded_phash_exclusion,S1_Appendix.tex,tab:phash_sensitivity,894,896
+B-post,<=5,494,1974,12883,0.27024,0.27097,0.27570,+0.473,0.205,0.674,reported_manuscript_summary,fixed_matching_ranking_AP_after_recorded_phash_exclusion,S1_Appendix.tex,tab:phash_sensitivity,896,897
+W-StageB,0,558,2249,26217,0.27731,0.28109,0.28568,+0.459,0.279,0.628,reported_manuscript_summary,fixed_matching_ranking_AP_after_recorded_phash_exclusion,S1_Appendix.tex,tab:phash_sensitivity,897,898
+W-StageB,<=5,494,1974,23490,0.27839,0.28237,0.28730,+0.494,0.300,0.661,reported_manuscript_summary,fixed_matching_ranking_AP_after_recorded_phash_exclusion,S1_Appendix.tex,tab:phash_sensitivity,898,899

@@ -1,0 +1,4 @@
+external_cohort,images,WTMD_train_intersection,WTMD_validation_intersection,WTMD_test_intersection,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+Dataset 1 validation (CQR),901,2,1,2,reported_manuscript_summary,reported_SHA256_intersections,S1_Appendix.tex,tab:current_exact_intersections,827,829
+Dataset 1 test (native),451,1,1,0,reported_manuscript_summary,reported_SHA256_intersections,S1_Appendix.tex,tab:current_exact_intersections,829,830
+Dataset 2 validation (native),519,0,0,0,reported_manuscript_summary,reported_SHA256_intersections,S1_Appendix.tex,tab:current_exact_intersections,830,831

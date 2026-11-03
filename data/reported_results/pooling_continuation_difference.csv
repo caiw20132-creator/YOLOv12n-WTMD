@@ -1,0 +1,2 @@
+contrast,precision_difference,recall_difference,AP50_difference,AP50_95_difference,unfused_parameter_difference_M,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+Difference,-0.0138,+0.0113,+0.0077,+0.0048,0.000,reported_manuscript_summary,SoftPool_minus_MaxPool_before_source_rounding,main(20261103-062034).tex,tab:7,886,894

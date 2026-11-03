@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "filename": "main(20261103-062034).tex",
+      "sha256": "4f2a763f8c30b395fc3d8835f63c2e71d36ba57284d6d7ccf70c53fdf7a74291"
+    },
+    {
+      "filename": "S1_Appendix.tex",
+      "sha256": "83df74711b8467a4b6975867e7b068f2eccc8772f786b7ff05af7a43b805a618"
+    },
+    {
+      "filename": "ref(20261103-062034).bib",
+      "sha256": "de905f7ebfc98fb7e87f7f13e24ac5dd4eab97c530f2396538ae67a4c57f2d31"
+    }
+  ],
+  "manuscript_source_files_included": false,
+  "values_scope": "Author-confirmed manuscript-reported summaries, not per-image experimental records."
+}

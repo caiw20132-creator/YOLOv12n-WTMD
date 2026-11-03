@@ -1,0 +1,5 @@
+split,images,annotations,background_images,role,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+Train,4021,17043,210,Detector training,reported_manuscript_summary,dataset_composition,main(20261103-062034).tex,tab:3,289,295
+Validation,1151,4791,50,Checkpoint selection / CQR fitting,reported_manuscript_summary,dataset_composition,main(20261103-062034).tex,tab:3,295,300
+Test,572,2301,34,Fixed evaluation,reported_manuscript_summary,dataset_composition,main(20261103-062034).tex,tab:3,300,305
+Total,5744,24135,294,--,reported_manuscript_summary,dataset_composition,main(20261103-062034).tex,tab:3,305,311

@@ -1,0 +1,10 @@
+item,recorded_setting,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
+GPU,"NVIDIA GeForce RTX 3060, 12 GB",reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,92,94
+Environment snapshot,Python 3.9.7; CUDA 12.1; PyTorch 2.2.2+cu121; Torchvision 0.17.2+cu121; Torchaudio 2.2.2+cu121,reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,94,95
+Detector implementation,Ultralytics 8.3.63,reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,95,96
+CQR implementation,scikit-learn 1.4.2,reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,96,97
+WTMD native evaluation,"Nominal 960x960 input; batch 1; confidence cutoff 0.001; NMS IoU 0.50; max_det=10000; augmentation, rectangular inference, and half precision disabled",reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,97,98
+Sensitivity accuracy,572 fixed-test images; batch 6; confidence cutoff 0.001; NMS IoU 0.50; max_det=10000; augment=False; frozen B-post and W-StageB checkpoints,reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,98,99
+Checkpoint-bound Table tab:S2 timing,FP32; batch 1; 30 warm-up and 100 timed passes; CUDA synchronized before and after each timed pass,reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,99,100
+Precision and recall,Evaluation-specific smoothed-F1 operating point at matching IoU 0.50,reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,100,101
+AP_50:95,"Ten matching thresholds, 0.50--0.95 in steps of 0.05",reported_manuscript_summary,reported_settings_or_method_description,S1_Appendix.tex,tab:S1,101,102
