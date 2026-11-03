@@ -1,0 +1,8 @@
+﻿
+
+Algorithm : SHA256
+Hash      : 9402FC69E49B43CC8F67793BF0801D75B4978CB458484D0E2630F75E65F842D0
+Path      : D:\YOLO-WTB\runs_train\official_y12_vs_wtmd\YOLOv12n_official\weights\best.pt
+
+
+

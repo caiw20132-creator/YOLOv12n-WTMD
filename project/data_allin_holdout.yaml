@@ -1,0 +1,6 @@
+path: D:/YOLO-WTB
+train: D:/YOLO-WTB/allin_lists/train_all.txt
+val: D:/YOLO-WTB/allin_lists/val_holdout.txt
+nc: 1
+names:
+- damage

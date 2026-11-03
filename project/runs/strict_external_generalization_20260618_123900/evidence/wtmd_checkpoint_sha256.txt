@@ -1,0 +1,8 @@
+﻿
+
+Algorithm : SHA256
+Hash      : 729365B19C0669ED86FFD9F5F39E18DC1332AE1A1720DC35A462868653359C84
+Path      : D:\YOLO-WTB\runs_wtb\FINAL_allin_960_stageB\weights\best.pt
+
+
+

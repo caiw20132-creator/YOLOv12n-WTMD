@@ -1,0 +1,15 @@
+﻿task: single-class damage detection
+nc: 1
+names:
+  0: damage
+
+mappings:
+  cheshi1_surface_damage_wind_turbine:
+    source_dataset: Surface damage wind turbine
+    version: Roboflow Dataset v2 / local processed set
+    mapping: Damage -> damage
+
+  cheshi2_wind_turbine_faults_detection:
+    source_dataset: wind-turbine-faults-detection
+    version: Roboflow Dataset v4 / local processed set
+    mapping: 5 damage-related classes -> damage

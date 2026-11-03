@@ -1,0 +1,5 @@
+﻿task: single-class damage detection
+nc: 1
+names:
+  0: damage
+mapping_note: external damage-related categories were mapped to the unified class "damage"

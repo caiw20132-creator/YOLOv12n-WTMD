@@ -1,0 +1,3 @@
+﻿"DatasetID","DatasetName","Version","Images","Instances","Backgrounds","Mapping"
+"cheshi1_surface_damage_wind_turbine","Surface damage wind turbine","Roboflow Dataset v2 / local processed set","4506","4386","3113","Damage -> damage"
+"cheshi2_wind_turbine_faults_detection","wind-turbine-faults-detection","Roboflow Dataset v4 / local processed set","5380","11995","1341","5 damage-related classes -> damage"

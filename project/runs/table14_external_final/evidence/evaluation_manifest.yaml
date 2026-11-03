@@ -1,0 +1,28 @@
+﻿evaluation_date: 2026-06-18 12:07:18 +08:00
+environment:
+  yolo_executable: D:\YOLO-WTB\venv_8363\Scripts\yolo.exe
+  project_root: D:/YOLO-WTB
+  ultralytics_version: check console log
+models:
+  yolov12n_checkpoint: D:\YOLO-WTB\runs_train\official_y12_vs_wtmd\YOLOv12n_official\weights\best.pt
+  wtmd_checkpoint: D:\YOLO-WTB\runs_wtb\FINAL_allin_960_stageB\weights\best.pt
+external_dataset:
+  yaml: D:\YOLO-WTB\cheshi1\cheshi1_damage.yaml
+  split: test
+class_mapping_file: D:\YOLO-WTB\runs\table14_external_final\evidence\class_mapping_external_to_damage.yaml
+evaluation_parameters:
+  task: detect
+  mode: val
+  imgsz: 960
+  batch: 1
+  conf: 0.001
+  iou: 0.5
+  max_det: 10000
+  augment: false
+  save_json: true
+  save_txt: true
+  save_conf: true
+result_directories:
+  yolov12n: D:\YOLO-WTB\runs\table14_external_final/external_test_yolov12n_final
+  yolov12n_wtmd: D:\YOLO-WTB\runs\table14_external_final/external_test_yolov12n_wtmd_final
+evidence_directory: D:\YOLO-WTB\runs\table14_external_final\evidence

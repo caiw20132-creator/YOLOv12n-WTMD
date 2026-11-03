@@ -1,0 +1,4 @@
+﻿Surface damage wind turbine & Roboflow Dataset v2 / local processed set & test & YOLOv12n & 451 / 394 & 0.438 & 0.401 & 0.346 & 0.132 \\
+Surface damage wind turbine & Roboflow Dataset v2 / local processed set & test & YOLOv12n-WTMD & 451 / 394 & 0.41 & 0.373 & 0.298 & 0.121 \\
+wind-turbine-faults-detection & Roboflow Dataset v4 / local processed set & val & YOLOv12n & 519 / 1223 & 0.603 & 0.45 & 0.464 & 0.212 \\
+wind-turbine-faults-detection & Roboflow Dataset v4 / local processed set & val & YOLOv12n-WTMD & 519 / 1223 & 0.552 & 0.456 & 0.431 & 0.191 \\

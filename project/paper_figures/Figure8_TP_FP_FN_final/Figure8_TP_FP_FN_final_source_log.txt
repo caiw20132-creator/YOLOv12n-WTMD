@@ -1,0 +1,52 @@
+Figure 8 adjusted TP/FP/FN visualization
+baseline weights: D:\YOLO-WTB\runs_baseline\yolov12n_baseline\weights\best.pt
+wtmd weights: D:\YOLO-WTB\runs_wtb\FINAL_allin_960_stageB\weights\best.pt
+imgsz: 960
+conf: 0.25
+prediction NMS IoU: 0.5
+matching IoU: 0.5
+display caps: max_gt=12, max_tp=10, max_fp=4, max_fn=4
+
+Sample 1: DJI_0030_03_04_png_jpg.rf.42df519d093b0ba5c1ae55aab3935cb3
+  image: D:\YOLO-WTB\test_data\train\images\DJI_0030_03_04_png_jpg.rf.42df519d093b0ba5c1ae55aab3935cb3.jpg
+  label: D:\YOLO-WTB\test_data\train\labels\DJI_0030_03_04_png_jpg.rf.42df519d093b0ba5c1ae55aab3935cb3.txt
+  GT boxes: 11, shown: 11
+  YOLOv12n predictions: 13
+  YOLOv12n TP/FP/FN: 8/5/3
+  YOLOv12n shown TP/FP/FN: 8/4/3
+  YOLOv12n-WTMD predictions: 12
+  YOLOv12n-WTMD TP/FP/FN: 10/2/1
+  YOLOv12n-WTMD shown TP/FP/FN: 10/2/1
+
+Sample 2: img1472_png_jpg.rf.6a320d0d7d8754dd47dd657aec269b1b
+  image: D:\YOLO-WTB\test_data\test\images\img1472_png_jpg.rf.6a320d0d7d8754dd47dd657aec269b1b.jpg
+  label: D:\YOLO-WTB\test_data\test\labels\img1472_png_jpg.rf.6a320d0d7d8754dd47dd657aec269b1b.txt
+  GT boxes: 34, shown: 12
+  YOLOv12n predictions: 2
+  YOLOv12n TP/FP/FN: 0/2/34
+  YOLOv12n shown TP/FP/FN: 0/2/4
+  YOLOv12n-WTMD predictions: 22
+  YOLOv12n-WTMD TP/FP/FN: 15/7/19
+  YOLOv12n-WTMD shown TP/FP/FN: 10/4/4
+
+Sample 3: img1326_png_jpg.rf.2a012de5c799858314b7e11fe2319d81
+  image: D:\YOLO-WTB\test_data\test\images\img1326_png_jpg.rf.2a012de5c799858314b7e11fe2319d81.jpg
+  label: D:\YOLO-WTB\test_data\test\labels\img1326_png_jpg.rf.2a012de5c799858314b7e11fe2319d81.txt
+  GT boxes: 11, shown: 11
+  YOLOv12n predictions: 0
+  YOLOv12n TP/FP/FN: 0/0/11
+  YOLOv12n shown TP/FP/FN: 0/0/4
+  YOLOv12n-WTMD predictions: 9
+  YOLOv12n-WTMD TP/FP/FN: 9/0/2
+  YOLOv12n-WTMD shown TP/FP/FN: 9/0/2
+
+Sample 4: img282_png_jpg.rf.71b2b9f5f5734397c5217c0687d66891
+  image: D:\YOLO-WTB\test_data\test\images\img282_png_jpg.rf.71b2b9f5f5734397c5217c0687d66891.jpg
+  label: D:\YOLO-WTB\test_data\test\labels\img282_png_jpg.rf.71b2b9f5f5734397c5217c0687d66891.txt
+  GT boxes: 9, shown: 9
+  YOLOv12n predictions: 0
+  YOLOv12n TP/FP/FN: 0/0/9
+  YOLOv12n shown TP/FP/FN: 0/0/4
+  YOLOv12n-WTMD predictions: 8
+  YOLOv12n-WTMD TP/FP/FN: 7/1/2
+  YOLOv12n-WTMD shown TP/FP/FN: 7/1/2
