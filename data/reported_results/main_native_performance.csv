@@ -1,3 +1,0 @@
-model,precision,recall,AP50,AP50_95,checkpoint,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-YOLOv12n,0.6845,0.6157,0.6451,0.2647,B-main,reported_manuscript_summary,native_overall_AP,main(20261103-062034).tex,tab:4,684,687
-YOLOv12n-WTMD,0.6654,0.6328,0.6551,0.2757,W-StageB,reported_manuscript_summary,native_overall_AP,main(20261103-062034).tex,tab:4,687,689

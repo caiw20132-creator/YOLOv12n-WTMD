@@ -1,7 +1,0 @@
-cohort,images,model_or_checkpoint,scoring,retained_boxes,AP50,AP50_95,CQR_minus_CG_AP50_95_pp,CI95_lower_pp,CI95_upper_pp,checkpoint,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-WTMD_test,572,YOLOv12n,Native,14812,0.64572,0.27000,,,,B-post,reported_manuscript_summary,fixed_matching_ranking_AP,main(20261103-062034).tex,tab:cqr_results,1020,1027
-WTMD_test,572,YOLOv12n,CG,14812,0.64267,0.27084,,,,B-post,reported_manuscript_summary,fixed_matching_ranking_AP,main(20261103-062034).tex,tab:cqr_results,1027,1033
-WTMD_test,572,YOLOv12n,CQR,14812,0.65160,0.27501,+0.418,0.190,0.611,B-post,reported_manuscript_summary,fixed_matching_ranking_AP,main(20261103-062034).tex,tab:cqr_results,1033,1039
-WTMD_test,572,YOLOv12n-WTMD,Native,26678,0.65834,0.27808,,,,W-StageB,reported_manuscript_summary,fixed_matching_ranking_AP,main(20261103-062034).tex,tab:cqr_results,1039,1047
-WTMD_test,572,YOLOv12n-WTMD,CG,26678,0.66064,0.28182,,,,W-StageB,reported_manuscript_summary,fixed_matching_ranking_AP,main(20261103-062034).tex,tab:cqr_results,1047,1053
-WTMD_test,572,YOLOv12n-WTMD,CQR,26678,0.67120,0.28650,+0.468,0.307,0.611,W-StageB,reported_manuscript_summary,fixed_matching_ranking_AP,main(20261103-062034).tex,tab:cqr_results,1053,1059

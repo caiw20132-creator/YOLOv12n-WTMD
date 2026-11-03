@@ -1,7 +1,0 @@
-checkpoint,scale_group,GT_count,AP50,AP50_95,WTMD_minus_baseline_AP50_95_pp,CI95_lower_pp,CI95_upper_pp,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-B-post,tiny,825,0.3474,0.0887,,,,reported_manuscript_summary,group_specific_scale_AP_on_rectangular_exports,S1_Appendix.tex,tab:complete_scale_reanalysis,804,806
-B-post,small,967,0.5307,0.1995,,,,reported_manuscript_summary,group_specific_scale_AP_on_rectangular_exports,S1_Appendix.tex,tab:complete_scale_reanalysis,806,807
-B-post,medium-to-large,509,0.5656,0.3048,,,,reported_manuscript_summary,group_specific_scale_AP_on_rectangular_exports,S1_Appendix.tex,tab:complete_scale_reanalysis,807,808
-W-StageB,tiny,825,0.3845,0.1104,+2.169,1.213,3.160,reported_manuscript_summary,group_specific_scale_AP_on_rectangular_exports,S1_Appendix.tex,tab:complete_scale_reanalysis,808,810
-W-StageB,small,967,0.5671,0.2273,+2.782,1.331,4.179,reported_manuscript_summary,group_specific_scale_AP_on_rectangular_exports,S1_Appendix.tex,tab:complete_scale_reanalysis,810,811
-W-StageB,medium-to-large,509,0.5310,0.2599,-4.486,-6.607,-2.587,reported_manuscript_summary,group_specific_scale_AP_on_rectangular_exports,S1_Appendix.tex,tab:complete_scale_reanalysis,811,812

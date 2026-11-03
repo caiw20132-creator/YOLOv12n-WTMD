@@ -1,5 +1,0 @@
-cohort,images,annotations,model,precision,recall,AP50,AP50_95,checkpoint,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-External1_v2_test,451,394,YOLOv12n-WTMD,0.438,0.401,0.346,0.132,W-StageB,reported_manuscript_summary,native_external_AP,main(20261103-062034).tex,tab:10,939,941
-External1_v2_test,451,394,YOLOv12n,0.410,0.373,0.298,0.121,B-main,reported_manuscript_summary,native_external_AP,main(20261103-062034).tex,tab:10,941,943
-External2_v4_validation,519,1223,YOLOv12n-WTMD,0.603,0.450,0.464,0.212,W-StageB,reported_manuscript_summary,native_external_AP,main(20261103-062034).tex,tab:10,948,950
-External2_v4_validation,519,1223,YOLOv12n,0.552,0.456,0.431,0.191,B-main,reported_manuscript_summary,native_external_AP,main(20261103-062034).tex,tab:10,950,952

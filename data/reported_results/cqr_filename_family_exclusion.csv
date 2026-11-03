@@ -1,3 +1,0 @@
-checkpoint,retained_boxes,native_AP50_95,CG_AP50_95,CQR_AP50_95,CQR_minus_CG_AP50_95_pp,CI95_lower_pp,CI95_upper_pp,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-B-post,7852,0.30502,0.30699,0.31039,+0.340,0.019,0.633,reported_manuscript_summary,fixed_matching_ranking_AP_after_filename_family_exclusion,S1_Appendix.tex,tab:filename_sensitivity,869,871
-W-StageB,14655,0.30556,0.31034,0.31421,+0.387,0.147,0.642,reported_manuscript_summary,fixed_matching_ranking_AP_after_filename_family_exclusion,S1_Appendix.tex,tab:filename_sensitivity,871,872

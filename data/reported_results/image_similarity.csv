@@ -1,4 +1,0 @@
-split_pair,compared_images,exact_MD5_duplicate_pairs,phash_zero_pairs,phash_distance_le5_pairs,minimum_phash_distance,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-Train--Val,4021 vs 1151,0,57,489,0,reported_manuscript_summary,reported_cross_split_image_similarity,S1_Appendix.tex,tab:S7,332,348
-Train--Test,4021 vs 572,0,36,174,0,reported_manuscript_summary,reported_cross_split_image_similarity,S1_Appendix.tex,tab:S7,348,362
-Val--Test,1151 vs 572,0,9,54,0,reported_manuscript_summary,reported_cross_split_image_similarity,S1_Appendix.tex,tab:S7,362,376

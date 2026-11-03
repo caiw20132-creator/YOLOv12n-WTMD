@@ -1,3 +1,0 @@
-model,unfused_parameters_M,recorded_operation_estimate_G,validator_inference_ms_per_image,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-YOLOv12n,2.550,14.51,15.04,reported_manuscript_summary,recorded_compute_and_validator_timing,main(20261103-062034).tex,tab:9,712,715
-YOLOv12n-WTMD,1.468,38.42,11.43,reported_manuscript_summary,recorded_compute_and_validator_timing,main(20261103-062034).tex,tab:9,715,717

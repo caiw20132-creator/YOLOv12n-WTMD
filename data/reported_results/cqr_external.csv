@@ -1,7 +1,0 @@
-cohort,images,model_or_checkpoint,scoring,retained_boxes,AP50,AP50_95,CQR_minus_CG_AP50_95_pp,CI95_lower_pp,CI95_upper_pp,checkpoint,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-External1_v2_validation,901,B-post,Native,11273,,0.11835,,,,B-post,reported_manuscript_summary,fixed_matching_ranking_AP,S1_Appendix.tex,tab:S13,588,590
-External1_v2_validation,901,B-post,CG,11273,,0.12303,,,,B-post,reported_manuscript_summary,fixed_matching_ranking_AP,S1_Appendix.tex,tab:S13,590,591
-External1_v2_validation,901,B-post,CQR,11273,,0.12174,-0.129,-0.520,0.197,B-post,reported_manuscript_summary,fixed_matching_ranking_AP,S1_Appendix.tex,tab:S13,591,592
-External1_v2_validation,901,W-StageB,Native,20509,,0.13255,,,,W-StageB,reported_manuscript_summary,fixed_matching_ranking_AP,S1_Appendix.tex,tab:S13,592,594
-External1_v2_validation,901,W-StageB,CG,20509,,0.13662,,,,W-StageB,reported_manuscript_summary,fixed_matching_ranking_AP,S1_Appendix.tex,tab:S13,594,595
-External1_v2_validation,901,W-StageB,CQR,20509,,0.13455,-0.207,-0.512,0.137,W-StageB,reported_manuscript_summary,fixed_matching_ranking_AP,S1_Appendix.tex,tab:S13,595,596

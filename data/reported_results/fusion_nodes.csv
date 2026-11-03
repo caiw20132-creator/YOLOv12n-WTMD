@@ -1,5 +1,0 @@
-feature,role,stride,spatial_size,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-F_8,Projected P4 aggregation / P4 detection input,16,60x60,reported_manuscript_summary,architecture_description,main(20261103-062034).tex,tab:2,427,430
-F_11,Intermediate top-down P3 fusion,8,120x120,reported_manuscript_summary,architecture_description,main(20261103-062034).tex,tab:2,430,432
-F_15,Fused P2 detection input,4,240x240,reported_manuscript_summary,architecture_description,main(20261103-062034).tex,tab:2,432,434
-F_18,Fused P3 detection input,8,120x120,reported_manuscript_summary,architecture_description,main(20261103-062034).tex,tab:2,434,436

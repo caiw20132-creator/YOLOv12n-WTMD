@@ -1,5 +1,0 @@
-checkpoint,exclusion_rule,images,annotations,retained_boxes,native_AP50_95,CG_AP50_95,CQR_AP50_95,CQR_minus_CG_AP50_95_pp,CI95_lower_pp,CI95_upper_pp,record_type,evaluation_endpoint,source_file,source_table,source_line_start,source_line_end
-B-post,Dev,898,820,11238,0.11879,0.12363,0.12235,-0.128,-0.530,0.199,reported_manuscript_summary,fixed_matching_ranking_AP_after_exact_image_exclusion,S1_Appendix.tex,tab:external_exclusion,849,851
-B-post,All,896,817,11212,0.11907,0.12401,0.12266,-0.135,-0.576,0.172,reported_manuscript_summary,fixed_matching_ranking_AP_after_exact_image_exclusion,S1_Appendix.tex,tab:external_exclusion,851,852
-W-StageB,Dev,898,820,20394,0.13287,0.13694,0.13488,-0.205,-0.487,0.137,reported_manuscript_summary,fixed_matching_ranking_AP_after_exact_image_exclusion,S1_Appendix.tex,tab:external_exclusion,852,853
-W-StageB,All,896,817,20365,0.13301,0.13712,0.13514,-0.199,-0.456,0.100,reported_manuscript_summary,fixed_matching_ranking_AP_after_exact_image_exclusion,S1_Appendix.tex,tab:external_exclusion,853,854
