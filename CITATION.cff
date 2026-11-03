@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when using these artifacts; add the final publication identifier after publication."
+type: software
+title: "YOLOv12n-WTMD research artifacts"
+version: "0.1.0-preparation"
+date-released: "2026-11-03"
+authors:
+  - family-names: Yu
+    given-names: Ping
+  - family-names: Cai
+    given-names: Wenhao
+  - family-names: Geng
+    given-names: Xiaozhong
+  - family-names: Chen
+    given-names: Tiehua
+  - family-names: Li
+    given-names: Yong
+  - family-names: Zhang
+    given-names: Xiaochen
+  - family-names: Li
+    given-names: Jian
+  - family-names: Chen
+    given-names: Shuaiting
+  - family-names: Xu
+    given-names: Xiaoqing
