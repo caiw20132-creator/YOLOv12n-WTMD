@@ -1,7 +1,0 @@
-path: D:\YOLO-WTB
-train: test_data_train_fix_v1/train/images
-val: test_data_valid_fix_v1/valid/images
-test: test_data_test_fix_v1/test/images
-
-names:
-  0: damage

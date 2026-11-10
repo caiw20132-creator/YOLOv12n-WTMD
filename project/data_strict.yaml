@@ -1,6 +1,0 @@
-path: D:/YOLO-WTB/test_data
-train: train/images
-val: valid/images
-test: test/images
-nc: 1
-names: [damage]   # 建议统一小写，别用 Damage（不影响训练但影响你自己管理一致性）

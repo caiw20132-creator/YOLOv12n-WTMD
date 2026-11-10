@@ -1,6 +1,0 @@
-﻿"DatasetID","DatasetName","Version","Split","Images","Instances","Backgrounds","Mapping"
-"cheshi1_surface_damage_wind_turbine","Surface damage wind turbine","Roboflow Dataset v2 / local processed set","train","3154","3168","2156","Damage -> damage"
-"cheshi1_surface_damage_wind_turbine","Surface damage wind turbine","Roboflow Dataset v2 / local processed set","valid","901","824","632","Damage -> damage"
-"cheshi1_surface_damage_wind_turbine","Surface damage wind turbine","Roboflow Dataset v2 / local processed set","test","451","394","325","Damage -> damage"
-"cheshi2_wind_turbine_faults_detection","wind-turbine-faults-detection","Roboflow Dataset v4 / local processed set","train","4861","10772","1218","5 damage-related classes -> damage"
-"cheshi2_wind_turbine_faults_detection","wind-turbine-faults-detection","Roboflow Dataset v4 / local processed set","valid","519","1223","123","5 damage-related classes -> damage"

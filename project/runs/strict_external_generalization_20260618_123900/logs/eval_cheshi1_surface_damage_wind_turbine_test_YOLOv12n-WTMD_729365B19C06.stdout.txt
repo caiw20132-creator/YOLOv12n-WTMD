@@ -1,8 +1,0 @@
-FlashAttention is not available on this device. Using scaled_dot_product_attention instead.
-Ultralytics 8.3.63 🚀 Python-3.9.7 torch-2.2.2+cu121 CUDA:0 (NVIDIA GeForce RTX 3060, 12288MiB)
-YOLO12n_damage_p4lite_enhanced_p234_w035 summary (fused): 145 layers, 1,464,223 parameters, 0 gradients, 16.9 GFLOPs
-                   all        451        394       0.41      0.373      0.298      0.121
-Speed: 0.5ms preprocess, 12.0ms inference, 0.0ms loss, 1.1ms postprocess per image
-Saving D:\YOLO-WTB\runs\strict_external_generalization_20260618_123900\eval\eval_cheshi1_surface_damage_wind_turbine_test_YOLOv12n-WTMD_729365B19C06\predictions.json...
-Results saved to [1mD:\YOLO-WTB\runs\strict_external_generalization_20260618_123900\eval\eval_cheshi1_surface_damage_wind_turbine_test_YOLOv12n-WTMD_729365B19C06[0m
-💡 Learn more at https://docs.ultralytics.com/modes/val
