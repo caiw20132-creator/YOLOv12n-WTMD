@@ -1,0 +1,5 @@
+﻿split,images,annotations,background_images,reported_role
+Train,4021,17043,210,Development images
+Validation,1151,4791,50,Development / CQR fitting
+Test,572,2301,34,Fixed evaluation
+Total,5744,24135,294,

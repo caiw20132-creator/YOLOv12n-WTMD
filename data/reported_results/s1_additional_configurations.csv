@@ -1,0 +1,4 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4,cell_5
+1,\textbf{Configuration},\textbf{Precision},\textbf{Recall},\textbf{AP$_{50}$},\textbf{AP$_{50:95}$}
+1,Original P3/P4/P5,0.4851,0.4850,0.4521,0.1622
+1,Reconstructed P2/P3/P4,0.5052,0.4819,0.4611,0.1692

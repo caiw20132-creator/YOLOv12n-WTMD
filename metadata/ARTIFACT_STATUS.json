@@ -1,0 +1,9 @@
+{
+  "archive_scope": "curated_experiment_archive",
+  "source_status": "Main PDF and original ZIP supplied by author",
+  "registered_experiment_weights_included": 4,
+  "registered_experiment_weights_missing": 5,
+  "historical_primary_training_assignment_resolved": false,
+  "external_451_519_model_assignment_resolved": false,
+  "training_inference_rerun_performed": false
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "dataset": "WTMD",
+    "version": 1,
+    "url": "https://universe.roboflow.com/xmltorecord/surface-damage-wind-turbine-40qrp/dataset/1",
+    "cohorts": {
+      "train": 4021,
+      "val": 1151,
+      "test": 572
+    }
+  },
+  {
+    "dataset": "Dataset 1",
+    "version": 2,
+    "url": "https://universe.roboflow.com/eepis-o8fee/surface-damage-wind-turbine-8edpd/dataset/2",
+    "cohorts": {
+      "test": 451,
+      "archived_validation": 901
+    }
+  },
+  {
+    "dataset": "Dataset 2",
+    "version": 4,
+    "url": "https://universe.roboflow.com/detectionanas/wind-turbine-faults-detection/dataset/4",
+    "cohorts": {
+      "val": 519
+    }
+  }
+]

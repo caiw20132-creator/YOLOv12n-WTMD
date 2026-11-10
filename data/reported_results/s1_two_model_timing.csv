@@ -1,0 +1,4 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4,cell_5
+1,\textbf{Model},\textbf{Checkpoint},\textbf{Mean $\pm$ SD (ms)},\textbf{P95 (ms)},\textbf{Forward FPS}
+1,YOLOv12n,B-main,$27.320\pm11.021$,40.964,36.603
+1,YOLOv12n-WTMD,YOLOv12n-WTMD,$21.145\pm8.410$,30.805,47.294

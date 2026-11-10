@@ -1,0 +1,6 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6
+1,\textbf{Cohort},\textbf{Aggregation},\textbf{Precision},\textbf{Recall},\textbf{AP$_{50}$},\textbf{AP$_{50:95}$}
+1,Validation,SoftPool-SPPF,0.660327,0.597370,0.644568,0.278301
+1,Validation,MaxPool-SPPF,0.656679,0.596455,0.642949,0.275624
+1,Evaluation,SoftPool-SPPF,0.660656,0.606258,0.641760,0.265449
+1,Evaluation,MaxPool-SPPF,0.674488,0.594959,0.634108,0.260642

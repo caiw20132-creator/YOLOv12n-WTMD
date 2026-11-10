@@ -1,0 +1,6 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6,cell_7,cell_8
+1,\textbf{Detector},\textbf{Rule},\shortstack{\textbf{Images}\\\textbf{/ GT}},\textbf{Boxes},\textbf{Native},\textbf{CG},\textbf{CQR},\textbf{CQR--CG (95\% CI)}
+1,B-post,Dev,\shortstack{898\\820},"11,238",0.11879,0.12363,0.12235,"\shortstack{$ -0.128 $\\$[-0.530,\,0.199]$}"
+1,B-post,All,\shortstack{896\\817},"11,212",0.11907,0.12401,0.12266,"\shortstack{$ -0.135 $\\$[-0.576,\,0.172]$}"
+1,YOLOv12n-WTMD,Dev,\shortstack{898\\820},"20,394",0.13287,0.13694,0.13488,"\shortstack{$ -0.205 $\\$[-0.487,\,0.137]$}"
+1,YOLOv12n-WTMD,All,\shortstack{896\\817},"20,365",0.13301,0.13712,0.13514,"\shortstack{$ -0.199 $\\$[-0.456,\,0.100]$}"

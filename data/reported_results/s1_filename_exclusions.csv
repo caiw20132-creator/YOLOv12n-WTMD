@@ -1,0 +1,4 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6
+1,\textbf{Detector},\textbf{Boxes},\textbf{Native},\textbf{CG},\textbf{CQR},\textbf{CQR--CG (95\% CI)}
+1,B-post,"7,852",0.30502,0.30699,0.31039,"\shortstack{$ +0.340 $\\$[0.019,\,0.633]$}"
+1,YOLOv12n-WTMD,"14,655",0.30556,0.31034,0.31421,"\shortstack{$ +0.387 $\\$[0.147,\,0.642]$}"

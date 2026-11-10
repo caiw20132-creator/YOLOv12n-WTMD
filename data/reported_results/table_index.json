@@ -1,0 +1,209 @@
+{
+  "dataset_composition": {
+    "file": "data/reported_results/dataset_composition.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 1,
+    "final_pdf_page": 7,
+    "data_rows": 4,
+    "record_type": "manuscript_table_transcription"
+  },
+  "fusion_nodes": {
+    "file": "data/reported_results/fusion_nodes.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 2,
+    "final_pdf_page": 9,
+    "data_rows": 4,
+    "record_type": "manuscript_table_transcription"
+  },
+  "native_primary": {
+    "file": "data/reported_results/native_primary.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 3,
+    "final_pdf_page": 12,
+    "data_rows": 2,
+    "record_type": "manuscript_table_transcription",
+    "scope": "572-image native validator. Fixed-checkpoint console and lineage documentation are separate sources."
+  },
+  "detector_comparison": {
+    "file": "data/reported_results/detector_comparison.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 4,
+    "final_pdf_page": 13,
+    "data_rows": 8,
+    "record_type": "manuscript_table_transcription",
+    "scope": "Eight-model benchmark. Forward-only timing is distinct from validator and checkpoint-bound timing."
+  },
+  "scale_conditioned": {
+    "file": "data/reported_results/scale_conditioned.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 5,
+    "final_pdf_page": 14,
+    "data_rows": 3,
+    "record_type": "manuscript_table_transcription"
+  },
+  "eight_configurations": {
+    "file": "data/reported_results/eight_configurations.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 6,
+    "final_pdf_page": 15,
+    "data_rows": 8,
+    "record_type": "manuscript_table_transcription"
+  },
+  "hierarchy": {
+    "file": "data/reported_results/hierarchy.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 7,
+    "final_pdf_page": 15,
+    "data_rows": 2,
+    "record_type": "manuscript_table_transcription",
+    "panel": "A"
+  },
+  "hierarchy_scale": {
+    "file": "data/reported_results/hierarchy_scale.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 7,
+    "final_pdf_page": 15,
+    "data_rows": 6,
+    "record_type": "manuscript_table_transcription",
+    "panel": "B"
+  },
+  "pooling_main": {
+    "file": "data/reported_results/pooling_main.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 8,
+    "final_pdf_page": 16,
+    "data_rows": 3,
+    "record_type": "manuscript_table_transcription",
+    "scope": "Fixed test. Difference is SoftPool-SPPF minus MaxPool-SPPF."
+  },
+  "external_native_901": {
+    "file": "data/reported_results/external_native_901.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 9,
+    "final_pdf_page": 17,
+    "data_rows": 2,
+    "record_type": "manuscript_table_transcription",
+    "scope": "901-image archived validation summary only. 451/519 results are separated in audit/external_model_assignment.csv."
+  },
+  "degradation": {
+    "file": "data/reported_results/degradation.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 10,
+    "final_pdf_page": 18,
+    "data_rows": 14,
+    "record_type": "manuscript_table_transcription"
+  },
+  "resolution": {
+    "file": "data/reported_results/resolution.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 11,
+    "final_pdf_page": 19,
+    "data_rows": 8,
+    "record_type": "manuscript_table_transcription"
+  },
+  "cqr": {
+    "file": "data/reported_results/cqr.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 12,
+    "final_pdf_page": 21,
+    "data_rows": 18,
+    "record_type": "manuscript_table_transcription"
+  },
+  "interventions_iou_050": {
+    "file": "data/reported_results/interventions_iou_050.csv",
+    "source": "main(1).pdf",
+    "final_pdf_table": 13,
+    "final_pdf_page": 22,
+    "data_rows": 6,
+    "record_type": "manuscript_table_transcription"
+  },
+  "s1_interventions_all_thresholds": {
+    "file": "data/reported_results/s1_interventions_all_thresholds.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:all_intervention_thresholds",
+    "data_rows": 60,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_development_geometry": {
+    "file": "data/reported_results/s1_development_geometry.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:S6",
+    "source_line": 283,
+    "rows_including_headers": 5,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_layers": {
+    "file": "data/reported_results/s1_layers.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:S8",
+    "source_line": 316,
+    "rows_including_headers": 21,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_training_settings": {
+    "file": "data/reported_results/s1_training_settings.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:S10",
+    "source_line": 388,
+    "rows_including_headers": 31,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_pooling_by_cohort": {
+    "file": "data/reported_results/s1_pooling_by_cohort.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:record_verified_pool_splits",
+    "source_line": 459,
+    "rows_including_headers": 5,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_additional_configurations": {
+    "file": "data/reported_results/s1_additional_configurations.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:record_verified_additional_configurations",
+    "source_line": 485,
+    "rows_including_headers": 3,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_two_model_timing": {
+    "file": "data/reported_results/s1_two_model_timing.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:S2",
+    "source_line": 573,
+    "rows_including_headers": 3,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_external_exclusions": {
+    "file": "data/reported_results/s1_external_exclusions.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:external_exclusion",
+    "source_line": 920,
+    "rows_including_headers": 5,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_filename_exclusions": {
+    "file": "data/reported_results/s1_filename_exclusions.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:filename_sensitivity",
+    "source_line": 941,
+    "rows_including_headers": 3,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  },
+  "s1_phash_exclusions": {
+    "file": "data/reported_results/s1_phash_exclusions.csv",
+    "source": "S1_Appendix.tex",
+    "label": "tab:phash_sensitivity",
+    "source_line": 960,
+    "rows_including_headers": 5,
+    "record_type": "manuscript_table_transcription",
+    "basis": "Workspace companion S1. The final main PDF lists S1 separately."
+  }
+}

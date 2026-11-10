@@ -1,0 +1,22 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4,cell_5,cell_6
+1,\textbf{Layer},\textbf{From},\textbf{Repeats},\textbf{Module},\textbf{Configuration arguments},\textbf{Stride}
+1,0,-1,1,Conv,"[64, 3, 2]",2
+1,1,-1,1,Conv,"[128, 3, 2]",4
+1,2,-1,3,C2f,[128],4
+1,3,-1,1,Conv,"[256, 3, 2]",8
+1,4,-1,6,C2f,[256],8
+1,5,-1,1,Conv,"[512, 3, 2]",16
+1,6,-1,6,C2f,[512],16
+1,7,-1,1,SF1SPPF,"[184, 184, 5]",16
+1,8,-1,1,Conv,"[256, 1, 1]",16
+1,9,-1,1,nn.Upsample,"[None, 2, nearest]",8
+1,10,"[-1, 4]",1,Concat,[1],8
+1,11,-1,3,C2f,[256],8
+1,12,-1,1,Conv,"[128, 1, 1]",8
+1,13,-1,1,nn.Upsample,"[None, 2, nearest]",4
+1,14,"[-1, 2]",1,Concat,[1],4
+1,15,-1,3,C2f,[128],4
+1,16,-1,1,Conv,"[128, 3, 2]",8
+1,17,"[-1, 11]",1,Concat,[1],8
+1,18,-1,3,C2f,[256],8
+1,19,"[15, 18, 8]",1,Detect,[nc],4/8/16

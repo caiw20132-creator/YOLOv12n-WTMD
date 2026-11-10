@@ -1,0 +1,4 @@
+﻿pooling_operator,precision,recall,ap50,ap50_95,params_m
+SoftPool-SPPF,0.6607,0.6063,0.6418,0.2654,1.468
+MaxPool-SPPF,0.6745,0.5950,0.6341,0.2606,1.468
+Difference,-0.0138,+0.0113,+0.0077,+0.0048,0.000

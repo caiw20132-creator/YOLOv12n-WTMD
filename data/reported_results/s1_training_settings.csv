@@ -1,0 +1,32 @@
+﻿panel,cell_1,cell_2,cell_3,cell_4
+1,\multicolumn{4}{l}{\textit{A. Training configurations}},,,
+1,\textbf{Setting},\textbf{B-main},\shortstack{\textbf{YOLOv12n-WTMD}\\\textbf{(primary WTMD)}},\textbf{Pooling continuations}
+1,Initialization,Official pretrained YOLOv12n,WTMD initialization checkpoint (Table~\ref{tab:S9}),Complete YOLOv12n-WTMD model state
+1,% AUTHOR_QUERY DATA_CONFIGURATION: The requested 4021/1151 main-training allocation conflicts with the embedded metadata of the primary digest currently listed in Table I. % The source data-configuration row is retained until the intended primary checkpoint is identified. This draft does not certify either allocation as the main run. Data configuration,Current train/validation split,Run-specific train/validation split,Current train/validation split
+1,Maximum epoch budget,120,80,120 per branch
+1,Input size,$960\times960$,$960\times960$,$960\times960$
+1,Batch size,6,3,6
+1,Optimizer,AdamW,AdamW,AdamW
+1,Initial learning rate,$10^{-4}$,$5\times10^{-5}$,$10^{-4}$
+1,Final learning-rate factor,0.01,0.01,0.01
+1,Weight decay,$5\times10^{-4}$,0.01,$5\times10^{-4}$
+1,Warm-up epochs,3,3,3
+1,Patience,100,30,200
+1,Random seed,0,0,0
+1,Deterministic setting,True,True,True
+1,Automatic mixed precision,True,True,False
+1,Cosine learning-rate schedule,False,True,False
+1,Pretrained setting,Official-weight reference,True,False after state transfer
+1,Resume setting,False,False,False
+1,\multicolumn{4}{l}{\textit{Augmentation settings}},,,
+1,Mosaic probability,1.0,0,1.0
+1,Final epochs without mosaic,20,0,20
+1,Horizontal-flip probability,0.5,0.5,0.5
+1,Translation fraction,0.1,0.1,0.1
+1,Scale range parameter,0.5,0.5,0.5
+1,HSV parameters ($h/s/v$),$0.015/0.7/0.4$,$0.015/0.7/0.4$,$0.015/0.7/0.4$
+1,Mixup probability,0,0,0
+1,Copy-paste probability,0.1,0,0.1
+1,\multicolumn{4}{l}{\textit{B. Recorded run outcomes}},,,
+1,\textbf{Record},\textbf{B-main},\textbf{YOLOv12n-WTMD},\textbf{Pooling runs}
+1,Selected checkpoint epoch,120,7,1 per branch

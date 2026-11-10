@@ -1,0 +1,7 @@
+﻿dataset,cohort,images,annotations,model,paper_precision,paper_recall,paper_ap50,paper_ap50_95,evidence_status,archive_checkpoint_sha256,archive_precision,archive_recall,archive_ap50,archive_ap50_95,archive_source
+Dataset 1,v2 test,451,394,YOLOv12n-WTMD,0.438,0.401,0.346,0.132,model_assignment_conflict,729365b19c0669ed86ffd9f5f39e18dc1332ae1a1720dc35a462868653359c84,0.410,0.373,0.298,0.121,project/runs/strict_external_generalization_20260618_123900/strict_external_generalization_summary.csv
+Dataset 1,v2 test,451,394,YOLOv12n,0.410,0.373,0.298,0.121,model_assignment_conflict,9402fc69e49b43cc8f67793bf0801d75b4978cb458484d0e2630f75e65f842d0,0.438,0.401,0.346,0.132,project/runs/strict_external_generalization_20260618_123900/strict_external_generalization_summary.csv
+Dataset 2,v4 validation,519,1223,YOLOv12n-WTMD,0.603,0.450,0.464,0.212,model_assignment_conflict,729365b19c0669ed86ffd9f5f39e18dc1332ae1a1720dc35a462868653359c84,0.552,0.456,0.431,0.191,project/runs/strict_external_generalization_20260618_123900/strict_external_generalization_summary.csv
+Dataset 2,v4 validation,519,1223,YOLOv12n,0.552,0.456,0.431,0.191,model_assignment_conflict,9402fc69e49b43cc8f67793bf0801d75b4978cb458484d0e2630f75e65f842d0,0.603,0.450,0.464,0.212,project/runs/strict_external_generalization_20260618_123900/strict_external_generalization_summary.csv
+Dataset 1,archived validation,901,824,YOLOv12n-WTMD,0.421,0.430,0.347,0.133,manuscript_summary_only,,,,,,
+Dataset 1,archived validation,901,824,YOLOv12n,0.394,0.416,0.325,0.118,manuscript_summary_only,,,,,,

@@ -1,0 +1,14 @@
+{
+  "original_file_disposition": {
+    "retained": 36,
+    "superseded": 11,
+    "excluded": 55,
+    "retained_at_new_path": 2,
+    "cleaned_comments": 1
+  },
+  "main_pdf_tables": 13,
+  "original_model_yaml_parse_equal": true,
+  "included_registered_weight_count": 4,
+  "source_zip_unchanged": true,
+  "training_or_inference_rerun": false
+}

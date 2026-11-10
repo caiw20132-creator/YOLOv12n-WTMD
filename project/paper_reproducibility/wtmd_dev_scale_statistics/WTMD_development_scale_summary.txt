@@ -1,0 +1,16 @@
+WTMD DEVELOPMENT SET
+TRAIN + VALIDATION ONLY
+FIXED TEST USED: NO
+
+Train images: 4021
+Train instances: 17043
+Validation images: 1151
+Validation instances: 4791
+
+Development images: 5172
+Development instances: 21834
+
+Tiny: 7478 (34.2493%)
+Small: 9475 (43.3956%)
+Medium-to-large: 4881 (22.3550%)
+Tiny + Small: 16953 (77.6450%)

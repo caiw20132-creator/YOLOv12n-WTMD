@@ -1,0 +1,19 @@
+﻿cohort,images,model,scoring,retained_boxes,ap50,ap50_95,cqr_minus_cg_ap50_95_pp,ci95_low_pp,ci95_high_pp
+Internal validation check,231,YOLOv12n,Native,6021,0.65788,0.27211,,,
+Internal validation check,231,YOLOv12n,CG,6021,0.65023,0.27262,,,
+Internal validation check,231,YOLOv12n,CQR,6021,0.65223,0.27515,,,
+Internal validation check,231,YOLOv12n-WTMD,Native,10124,0.68769,0.27843,,,
+Internal validation check,231,YOLOv12n-WTMD,CG,10124,0.68367,0.28035,,,
+Internal validation check,231,YOLOv12n-WTMD,CQR,10124,0.69229,0.28292,,,
+WTMD evaluation cohort,572,YOLOv12n,Native,14812,0.64572,0.27000,,,
+WTMD evaluation cohort,572,YOLOv12n,CG,14812,0.64267,0.27084,,,
+WTMD evaluation cohort,572,YOLOv12n,CQR,14812,0.65160,0.27501,+0.418,0.190,0.611
+WTMD evaluation cohort,572,YOLOv12n-WTMD,Native,26678,0.65834,0.27808,,,
+WTMD evaluation cohort,572,YOLOv12n-WTMD,CG,26678,0.66064,0.28182,,,
+WTMD evaluation cohort,572,YOLOv12n-WTMD,CQR,26678,0.67120,0.28650,+0.468,0.307,0.611
+External rescoring cohort,901,YOLOv12n,Native,11273,,0.11835,,,
+External rescoring cohort,901,YOLOv12n,CG,11273,,0.12303,,,
+External rescoring cohort,901,YOLOv12n,CQR,11273,,0.12174,-0.129,-0.520,0.197
+External rescoring cohort,901,YOLOv12n-WTMD,Native,20509,,0.13255,,,
+External rescoring cohort,901,YOLOv12n-WTMD,CG,20509,,0.13662,,,
+External rescoring cohort,901,YOLOv12n-WTMD,CQR,20509,,0.13455,-0.207,-0.512,0.137

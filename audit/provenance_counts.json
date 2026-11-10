@@ -1,0 +1,22 @@
+{
+  "archived_allin_allocation": {
+    "train_all.txt": {
+      "file_sha256": "ec907a45ad900d53f2dae7ecebf9c6237fa327eea1958686820658a0d84473a5",
+      "split_counts": {
+        "val": 1050,
+        "train": 3699,
+        "test": 535
+      },
+      "total": 5284
+    },
+    "val_holdout.txt": {
+      "file_sha256": "4d1b8087b398cb1aca518e10649f946cace07d5f8115381c2ee30bd6d3596301",
+      "split_counts": {
+        "train": 322,
+        "val": 101,
+        "test": 37
+      },
+      "total": 460
+    }
+  }
+}

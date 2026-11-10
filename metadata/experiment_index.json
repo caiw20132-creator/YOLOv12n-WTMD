@@ -1,0 +1,123 @@
+[
+  {
+    "analysis": "Dataset and development geometry",
+    "evidence_scope": "current_manifest_and_original_geometry",
+    "files": [
+      "data/reported_results/dataset_composition.csv",
+      "data/reported_results/s1_development_geometry.csv",
+      "data/wtmd_image_label_manifest.csv",
+      "project/data/wtb_damage_4021_1151.yaml",
+      "project/paper_reproducibility/wtmd_dev_scale_statistics/WTMD_development_geometry_960.csv"
+    ],
+    "missing_for_rerun": [
+      "Image and annotation payloads"
+    ]
+  },
+  {
+    "analysis": "Architecture and training",
+    "evidence_scope": "verified_model_graph_and_reported_settings",
+    "files": [
+      "data/reported_results/fusion_nodes.csv",
+      "data/reported_results/s1_layers.csv",
+      "data/reported_results/s1_training_settings.csv",
+      "project/yolo12n_damage_p4lite_enhanced_p234_w035.yaml",
+      "project/sf1_sppf.py",
+      "configs/reported_protocols.json",
+      "audit/provenance_counts.json"
+    ],
+    "missing_for_rerun": [
+      "Exact historical initialization and final weight-to-membership binding",
+      "Historical custom detector runtime"
+    ]
+  },
+  {
+    "analysis": "572-image primary native evaluation",
+    "evidence_scope": "original_console_matches_paper",
+    "files": [
+      "data/reported_results/native_primary.csv",
+      "evidence/native_primary_console.txt",
+      "metadata/checkpoints.json"
+    ],
+    "missing_for_rerun": [
+      "Exact primary checkpoints",
+      "Original evaluation manifest and per-image predictions"
+    ]
+  },
+  {
+    "analysis": "Benchmark and scale-conditioned evaluation",
+    "evidence_scope": "paper_summaries",
+    "files": [
+      "data/reported_results/detector_comparison.csv",
+      "data/reported_results/scale_conditioned.csv",
+      "data/reported_results/s1_two_model_timing.csv"
+    ],
+    "missing_for_rerun": [
+      "Full benchmark artifacts and per-image bootstrap inputs"
+    ]
+  },
+  {
+    "analysis": "Validation configurations and hierarchy",
+    "evidence_scope": "paper_summaries_and_hierarchy_script",
+    "files": [
+      "data/reported_results/eight_configurations.csv",
+      "data/reported_results/hierarchy.csv",
+      "data/reported_results/hierarchy_scale.csv",
+      "project/models_controlled_hierarchy/H11_Reallocate_P234.yaml",
+      "project/verify_h11_fixed_test_and_scale.py"
+    ],
+    "missing_for_rerun": [
+      "H234 and B-post weight or prediction cache"
+    ]
+  },
+  {
+    "analysis": "Pooling and separate complete configurations",
+    "evidence_scope": "four_verified_weights_and_training_histories",
+    "files": [
+      "data/reported_results/pooling_main.csv",
+      "data/reported_results/s1_pooling_by_cohort.csv",
+      "data/reported_results/s1_additional_configurations.csv",
+      "metadata/checkpoints.json"
+    ],
+    "missing_for_rerun": [
+      "Exact WTMD parent checkpoint and same-run evaluation manifests"
+    ]
+  },
+  {
+    "analysis": "Native external cohorts",
+    "evidence_scope": "901_summary_and_451_519_assignment_audit",
+    "files": [
+      "data/reported_results/external_native_901.csv",
+      "audit/external_model_assignment.csv",
+      "data/external_dataset_split_stats.csv",
+      "data/external_class_mapping_to_damage.yaml"
+    ],
+    "missing_for_rerun": [
+      "Checkpoint-bound native outputs confirming 451/519 final assignment",
+      "901 original native output"
+    ]
+  },
+  {
+    "analysis": "Degradation and resolution",
+    "evidence_scope": "paper_summaries_and_archived_script",
+    "files": [
+      "data/reported_results/degradation.csv",
+      "data/reported_results/resolution.csv",
+      "project/paper_reproducibility/quick_S4_S5_revalidation/run_quick_S4_S5.py"
+    ],
+    "missing_for_rerun": [
+      "Original realized perturbations and exact checkpoints"
+    ]
+  },
+  {
+    "analysis": "CQR and NMS intervention",
+    "evidence_scope": "paper_summaries",
+    "files": [
+      "data/reported_results/cqr.csv",
+      "data/reported_results/interventions_iou_050.csv",
+      "data/reported_results/s1_interventions_all_thresholds.csv"
+    ],
+    "missing_for_rerun": [
+      "Fitted regressors, matching and bootstrap inputs, and per-image candidate ledgers"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+﻿hierarchy,scale,gt_boxes,ap50,ap50_95
+P3/P4/P5,Tiny,825,0.3426,0.0853
+P3/P4/P5,Small,967,0.5386,0.1988
+P3/P4/P5,Medium-to-large,509,0.5724,0.3041
+P2/P3/P4,Tiny,825,0.3306,0.0893
+P2/P3/P4,Small,967,0.5429,0.2025
+P2/P3/P4,Medium-to-large,509,0.5615,0.2867

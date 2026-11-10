@@ -1,0 +1,5 @@
+﻿feature,role,stride,feature_width_cells,feature_height_cells
+F8,Projected P4 aggregation / P4 detection input,16,60,60
+F11,Intermediate top-down P3 fusion,8,120,120
+F15,Fused P2 detection input,4,240,240
+F18,Fused P3 detection input,8,120,120

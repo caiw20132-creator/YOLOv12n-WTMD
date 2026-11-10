@@ -1,0 +1,28 @@
+{
+  "authoritative_main_pdf": {
+    "file": "main(1).pdf",
+    "sha256": "36ac3625fb4320f1f2ca40194a3fe19e77f500559d445fb9d295621f55ffb446",
+    "pages": 31,
+    "includes_s1": false
+  },
+  "workspace_companion_s1": {
+    "file": "S1_Appendix.tex",
+    "sha256": "95d8f06deda224e81eacc7cdad3c745568c9cb1102c9880ea13f67fedac9db89"
+  },
+  "original_zip": {
+    "file": "YOLOv12n-WTMD-main(1).zip",
+    "sha256": "4a3b1f2672b07b54a9b275cb5b0f4aab0d93127707e3d9387f5151e22559e620"
+  },
+  "additional_inputs": [
+    {
+      "file": "db4fb157a8dabaf64e4b0823799cf057eb406d434728ed3f1c5b6a9bd4cf65d3_wtmd_image_label_manifest.csv",
+      "sha256": "db4fb157a8dabaf64e4b0823799cf057eb406d434728ed3f1c5b6a9bd4cf65d3",
+      "package_path": "data/wtmd_image_label_manifest.csv"
+    },
+    {
+      "file": "test主要结果(3).txt",
+      "sha256": "4a84a36e83259eac1633b92eaf6e4f9e887e131650c61ca2f5e86d4f561b56a3",
+      "package_path": "evidence/native_primary_console.txt"
+    }
+  ]
+}

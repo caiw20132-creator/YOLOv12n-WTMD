@@ -1,0 +1,15 @@
+﻿model,condition,ap50,ap50_95,recall,delta_ap50,retained_ap50_percent
+YOLOv12n,Clean,0.646,0.270,0.628,0.000,100.00
+YOLOv12n,Gaussian blur,0.642,0.273,0.613,-0.004,99.39
+YOLOv12n,Motion blur,0.438,0.155,0.456,-0.207,67.87
+YOLOv12n,Gaussian noise,0.123,0.050,0.160,-0.523,19.07
+YOLOv12n,Low brightness,0.647,0.272,0.642,+0.001,100.23
+YOLOv12n,Low contrast,0.635,0.268,0.625,-0.011,98.36
+YOLOv12n,JPEG compression,0.565,0.219,0.559,-0.081,87.52
+YOLOv12n-WTMD,Clean,0.658,0.278,0.634,0.000,100.00
+YOLOv12n-WTMD,Gaussian blur,0.621,0.260,0.564,-0.037,94.40
+YOLOv12n-WTMD,Motion blur,0.373,0.126,0.387,-0.285,56.70
+YOLOv12n-WTMD,Gaussian noise,0.095,0.037,0.141,-0.563,14.48
+YOLOv12n-WTMD,Low brightness,0.657,0.280,0.628,-0.002,99.73
+YOLOv12n-WTMD,Low contrast,0.633,0.270,0.601,-0.025,96.16
+YOLOv12n-WTMD,JPEG compression,0.561,0.224,0.563,-0.097,85.25

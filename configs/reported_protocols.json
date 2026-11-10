@@ -1,0 +1,221 @@
+{
+  "environment": {
+    "python": "3.9.7",
+    "cuda": "12.1",
+    "pytorch": "2.2.2+cu121",
+    "torchvision": "0.17.2+cu121",
+    "torchaudio": "2.2.2+cu121",
+    "ultralytics_local": "8.3.63",
+    "sklearn": "1.4.2",
+    "gpu": "RTX 3060 12 GB"
+  },
+  "current_split": {
+    "train": {
+      "images": 4021,
+      "annotations": 17043
+    },
+    "val": {
+      "images": 1151,
+      "annotations": 4791
+    },
+    "test": {
+      "images": 572,
+      "annotations": 2301
+    }
+  },
+  "training": {
+    "fitness": "0.1 AP50 + 0.9 AP50_95",
+    "initialization": {
+      "imgsz": 896,
+      "epochs_max": 120,
+      "batch": 6,
+      "optimizer": "AdamW",
+      "lr0": 0.0001,
+      "weight_decay": 0.0005,
+      "patience": 100,
+      "seed": 0,
+      "amp": true,
+      "cos_lr": false,
+      "mosaic": 1.0,
+      "pretrained": true,
+      "resume": false
+    },
+    "primary_wtmd": {
+      "imgsz": 960,
+      "epochs_max": 80,
+      "batch": 3,
+      "optimizer": "AdamW",
+      "lr0": 5e-05,
+      "lrf": 0.01,
+      "weight_decay": 0.01,
+      "warmup_epochs": 3,
+      "patience": 30,
+      "seed": 0,
+      "deterministic": true,
+      "amp": true,
+      "cos_lr": true,
+      "mosaic": 0,
+      "close_mosaic": 0,
+      "copy_paste": 0,
+      "pretrained": true,
+      "resume": false
+    },
+    "b_main": {
+      "imgsz": 960,
+      "epochs_max": 120,
+      "batch": 6,
+      "optimizer": "AdamW",
+      "lr0": 0.0001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 3,
+      "patience": 100,
+      "seed": 0,
+      "deterministic": true,
+      "amp": true,
+      "cos_lr": false,
+      "mosaic": 1.0,
+      "close_mosaic": 20,
+      "copy_paste": 0.1,
+      "resume": false
+    },
+    "pooling_per_branch": {
+      "imgsz": 960,
+      "epochs": 120,
+      "batch": 6,
+      "optimizer": "AdamW",
+      "lr0": 0.0001,
+      "lrf": 0.01,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 3,
+      "patience": 200,
+      "seed": 0,
+      "deterministic": true,
+      "amp": false,
+      "cos_lr": false,
+      "mosaic": 1.0,
+      "close_mosaic": 20,
+      "copy_paste": 0.1,
+      "pretrained": false,
+      "resume": false,
+      "selected_epoch": 1,
+      "parent": "shared_full_wtmd_state"
+    },
+    "shared_b_main_wtmd_pooling_augmentation": {
+      "fliplr": 0.5,
+      "translate": 0.1,
+      "scale": 0.5,
+      "hsv_h": 0.015,
+      "hsv_s": 0.7,
+      "hsv_v": 0.4,
+      "mixup": 0
+    }
+  },
+  "evaluation": {
+    "native": {
+      "imgsz": 960,
+      "batch": 1,
+      "conf": 0.001,
+      "nms_iou": 0.5,
+      "max_det": 10000,
+      "augment": false,
+      "rect": false,
+      "half": false,
+      "pr_matching_iou": 0.5
+    },
+    "ap_matching_iou": {
+      "min": 0.5,
+      "max": 0.95,
+      "step": 0.05
+    },
+    "hierarchy_script": {
+      "imgsz": 960,
+      "batch": 1,
+      "conf": 0.001,
+      "nms_iou": 0.5,
+      "max_det": 10000,
+      "augment": false,
+      "rect": false,
+      "half": false,
+      "device": 0,
+      "workers": 0
+    },
+    "scale_ap": {
+      "measurement": "resized_long_side_px",
+      "tiny": "s < 32",
+      "small": "32 <= s < 96",
+      "medium_to_large": "s >= 96",
+      "paired_bootstrap_images": 500,
+      "bootstrap_seed": 20261027
+    },
+    "external_native_images": [
+      451,
+      519,
+      901
+    ],
+    "sensitivity": {
+      "images": 572,
+      "batch": 6,
+      "conf": 0.001,
+      "nms_iou": 0.5,
+      "max_det": 10000,
+      "augment": false,
+      "resolution": [
+        640,
+        800,
+        960,
+        1280
+      ]
+    },
+    "degradation": {
+      "gaussian_blur_kernel": 5,
+      "gaussian_blur_sigma": 1.5,
+      "horizontal_motion_blur_pixels": 9,
+      "gaussian_noise_sigma": 15,
+      "brightness_multiplier": 0.65,
+      "contrast_multiplier": 0.65,
+      "contrast_pivot": 127.5,
+      "jpeg_quality": 40
+    },
+    "cqr": {
+      "nominal_imgsz": 960,
+      "effective_imgsz": 992,
+      "batch": 6,
+      "rect": true,
+      "half": false,
+      "source_imgsz": 640,
+      "gain": 1.5,
+      "padding_per_side": 16,
+      "cg_features": 7,
+      "cqr_features": 15,
+      "fit": 920,
+      "internal_check": 231,
+      "refit": 1151,
+      "test": 572,
+      "external": 901,
+      "paired_bootstrap_images": 500
+    },
+    "cqr_regressor": {
+      "type": "HistGradientBoostingRegressor",
+      "loss": "squared_error",
+      "max_iter": 90,
+      "learning_rate": 0.06,
+      "max_leaf_nodes": 12,
+      "min_samples_leaf": 100,
+      "l2_regularization": 15,
+      "early_stopping": false,
+      "random_state": 20261013
+    },
+    "timing": {
+      "imgsz": 960,
+      "fp32": true,
+      "batch": 1,
+      "warmup": 30,
+      "timed_passes": 100,
+      "pair_cuda_synchronized": true
+    }
+  },
+  "record_type": "paper_protocol_transcription",
+  "source": "main(1).pdf and workspace companion S1",
+  "scope": "The paper protocol does not establish the exact historical checkpoint-to-training-membership binding."
+}
